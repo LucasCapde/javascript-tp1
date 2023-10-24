@@ -8,12 +8,10 @@ Output: El 10 es divisible por 2.
 Output: El 15 no es divisible por 2.
 */
 
-let num = prompt('Ingrese un número')
-num = parseInt(num)
-console.log(typeof(num));
+let num = parseInt(prompt('Ingrese un número'))
 
 if(num % 2 === 0){
-  document.write('El número es divisible por 2')
+  document.write(`El número (${num}) es divisible por 2`)
 } else{
-  document.write('El número NO es divisible por 2')
+  document.write(`El número (${num}) NO es divisible por 2`)
 }
