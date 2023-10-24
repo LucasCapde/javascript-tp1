@@ -11,11 +11,26 @@ let frase = prompt('Ingrese una palabra o frase')
 
 for (let i = 0; i < frase.length; i++) {
   if(
-    frase.substr(i, 1) === 'a' || 
-    frase.substr(i, 1) === 'e' || 
-    frase.substr(i, 1) === 'i' || 
-    frase.substr(i, 1) === 'o' || 
-    frase.substr(i, 1) === 'u'){
-      document.write(frase.substr(i, 1))
+    frase.charAt(i) === 'a' || 
+    frase.charAt(i) === 'á' || 
+    frase.charAt(i) === 'A' || 
+    frase.charAt(i) === 'Á' || 
+    frase.charAt(i) === 'e' || 
+    frase.charAt(i) === 'é' || 
+    frase.charAt(i) === 'E' || 
+    frase.charAt(i) === 'É' || 
+    frase.charAt(i) === 'i' || 
+    frase.charAt(i) === 'í' || 
+    frase.charAt(i) === 'I' || 
+    frase.charAt(i) === 'Í' || 
+    frase.charAt(i) === 'o' || 
+    frase.charAt(i) === 'ó' || 
+    frase.charAt(i) === 'O' || 
+    frase.charAt(i) === 'Ó' || 
+    frase.charAt(i) === 'u' ||
+    frase.charAt(i) === 'ú' ||
+    frase.charAt(i) === 'U' ||
+    frase.charAt(i) === 'Ú'){
+      document.write(frase.charAt(i))
     }
 }
